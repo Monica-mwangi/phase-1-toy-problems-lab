@@ -1,30 +1,42 @@
 # phase-1-toy-problems-lab
-This is a java script function that prompts the user to put students marks and then calculated as follows;
-   A: Marks greater than 79
-B: Marks between 60 and 79 
-C: Marks between 50 and 59 
-D: Marks between 40 and 49 
-E: Marks less than 40
-   write the code in a javascript file with a .js file extension so that the java script engine knows its executing javascript code 
-   create a function as follows function calculateGrade (){
-    let marks = parseInt(prompt('student marks'))
-    when writing the function you can use the variable let, Using let ensures that marks is only accessible within the function and is not visible outside of it
-=>use the if and else if to write your condition e.g if (condition){write your block of code}
-      if (marks > 79){
-            return 'A';
-        }
-        else if (marks >= 60 & marks <=79){
-            return 'B';
-        }
-        else if (marks >= 50 & marks <=60){
-            return 'c';
-        }
-        else if (marks >= 40 & marks <=50){
-            return 'D'
-        }
-        else {
-            return 'E'
-        }
-        =>the above code shows if one has 79 the return grade is 'A'
+This is a javascript project
+ https://github.com/Monica-mwangi/toyproblems
+
+ # Author
+ Monica Njeri Mwangi
+
+ # Description
+ This is a lab that contains three different challenges that uses inputs from users to generate the outputs desired
+
+ # features
+ 1.it has a student grade generator
+ 2.it has a speed generator which uses speed as the input to calculate the total number of demerit points
+ 3.it has a net salary calculator
+
+ # setup
+ git clone git@github.com:Monica-mwangi/toyproblems.git
+
+ # license
+ Copyright (c) 2023 Monica Mwangi
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
 
 

@@ -1,3 +1,4 @@
+//function to calculate grades
 function calculateGrade (){
     let marks = parseInt(prompt('student marks'))
         if (marks > 79){
